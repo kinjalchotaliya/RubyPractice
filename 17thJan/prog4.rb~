@@ -1,0 +1,4 @@
+5.downto(1){|i| print ("*"*i).ljust(5); puts ("*"*i).rjust(4)}
+1.upto(5){|i| print ("*"*i).ljust(5);puts ("*"*i).rjust(4)}
+
+
