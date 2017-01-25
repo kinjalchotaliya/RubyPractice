@@ -1,0 +1,14 @@
+i=5
+while i>0 do
+<<<<<<< HEAD
+
+
+puts "*"*i
+i=i-1
+
+
+=======
+puts "*"*i
+i-=1
+>>>>>>> Test_One
+end
