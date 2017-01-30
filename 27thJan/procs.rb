@@ -38,3 +38,10 @@ def demo someproc
 end
 say = Proc.new {puts "hello"}
 demo say
+#another way
+def demo &someproc #  & = converts someproc block into proc
+  puts "method starts"
+  someproc.call
+  puts "done"
+end
+demo{puts "hello"}
