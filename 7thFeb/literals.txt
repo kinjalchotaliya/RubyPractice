@@ -1,0 +1,13 @@
+
+down vote
+I think of %w() as a "word array" - the elements are delimited by spaces.
+
+There are other % literals:
+
+%r() is another way to write a regular expression.
+%q() is another way to write a single-quoted string (and can be multi-line, which is useful)
+%Q() gives a double-quoted string
+%x() is a shell command
+%i() gives an array of symbols (Ruby >= 2.0.0)
+%s() turns foo into a symbol (:foo)
+I don't know any others, but there may be som
